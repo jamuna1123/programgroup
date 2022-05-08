@@ -90,3 +90,40 @@ body .main .fashion img {
 
 
 /*# sourceMappingURL=style.css.map */
+
+
+.navbar-wrapper{
+  background-color: #fff;
+
+}
+.navbar-wrapper .navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.navbar-wrapper .navbar .logo{
+  font-family: 'Arvo', serif;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.navbar-wrapper .navbar .menu i{
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.offcanvas{
+  background-color: #000;
+}
+
+.title{
+  font-size: 66px;
+  font-family: 'Arvo', serif;
+font-weight: 700;
+}
+.new-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
