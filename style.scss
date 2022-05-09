@@ -1,0 +1,100 @@
+body{
+    background-image: url("images/dot.png");
+    display: block;
+    .main{
+        padding: 6% 7% 6% 5%;
+        margin-bottom: 12%;
+        .fashion{
+            background-color: white;
+            .text{
+                padding: 10% 5% 10% 5%;
+                h1{
+                    font-size: 4rem;
+                    margin-bottom: 10%;
+                }
+                .btn{
+                    background-color: #b0c6d4;
+                    padding: 5%;
+                    width: 50%;
+                    border-radius: 0;
+                    margin-top: 5%;
+                }
+                .btn:hover{
+                    color: #0086b8;
+                }
+            }
+            img{
+                width: 105%;
+                height: 100%;
+            }
+        }
+    }
+    .florals{
+        padding: 6% 5% 6% 5%;
+        .left img{
+            height: 100%;
+            width: 100%;
+        }
+        .title{
+            font-size: 4rem;
+        }
+        .des {
+            padding: 5%;
+            p{
+                font-size: 23px;
+            }
+        }
+        .img img{
+            margin-top: 5%;
+            width: 100%;
+            
+        }
+        img{
+            width: 106%;
+        }
+    }
+    .carolina{
+        padding: 6% 5% 8% 5%;
+        background-color: #ea5149;
+        margin-bottom: 11%;
+        h1{
+            font-size: 4rem;
+            margin-bottom: 5%;
+        }
+        p{
+            margin-top: 5%;
+        }
+        img{
+            min-width: 100%;
+        }
+    }
+
+    .wear{
+        padding: 6% 5% 6% 5%;
+        img{
+            width: 100%;
+        }
+        .text{
+            padding: 5%;
+            .express{
+                margin-top: 50%;
+            }
+        }
+
+        .illusion{
+            margin-top: 10%;
+            h1{
+                margin-bottom: 5%;
+                font-size: 3rem;
+            }
+            img{
+                height: 100%;
+                margin-bottom: 0;
+            }
+            p{
+                margin-top: 5%;
+            }
+        }
+    }
+}
+
